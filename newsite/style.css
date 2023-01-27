@@ -1,0 +1,35 @@
+body {
+    color:blue;
+    background-color: aquamarine;
+    max-width:600px;
+    margin:0 auto;
+}
+p {
+    font-size:30px;
+    background-color: hsl(300, 100%, 50%);
+    border:5px solid rgb(179, 194, 255);
+    padding:20px; 
+    margin:0 auto;
+    width:600px;
+    height:200px;
+    text-align:center;
+  }
+  p:hover {
+    background-color:antiquewhite;
+  }
+   a {
+    color:rgb(255, 255, 112);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:darkturquoise;
+    text-decoration: line-through;
+  }
+  .special {
+    font-size:40px;
+  }
+
+  .new{
+    background-color:black;
+  }
