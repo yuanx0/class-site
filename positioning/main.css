@@ -1,0 +1,94 @@
+* {
+    box-sizing:border-box;
+}
+
+.box {
+    background-color: brown;
+    width:200px;
+    height:200px;
+    border:1px solid;
+    margin-top: 10px;
+}
+
+.relative{
+    background-color: black;
+    position:relative;
+    top:30px;
+    left:30px;
+}
+
+.fixed{
+    background-color: lavenderblush;
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    z-index:-1;
+}
+.absolute{
+    background-color: lightslategray;
+    position:absolute;
+    bottom:50px;
+    right:50px;
+    width:50px;
+    height:50px;
+}
+.sticky{
+    background-color: cornflowerblue;
+    position:sticky;
+    top:0;
+    left:20px;
+}
+.sticky-container{
+    background-color: aqua;
+    border:1px solid;
+    height: 50px;
+    position:relative;
+}
+.smiley{
+    background-color: blueviolet;
+    width:200px;
+    height:200px;
+    border:1px solid;
+    border-radius:100%;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    filter:blur(5px);
+    z-index:-1;
+}
+.eye {
+    background-color: blue;
+    width:20px;
+    height:20px;
+    border:2px solid;
+    border-radius:100%;
+    position:absolute;
+}
+.left{
+    left:40px;
+}
+.right{
+    right:40px;
+}
+.mouth{
+    width:100px;
+    background-color: aquamarine;
+    height:20px;
+    border:1px solid;
+    position:absolute;
+    bottom:50px;
+    left:50px;
+}
+.hat{
+   background-color: blanchedalmond;
+   width:100%;
+   height:50px;
+   border:1px solid;
+   position:absolute;
+   border-radius:20px 20px 0 0 ;
+   top:-50px;
+   left:0;
+
+}

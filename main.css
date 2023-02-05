@@ -1,0 +1,33 @@
+body{
+    color:rgb(248, 230, 253);
+    background-color: rgb(32, 29, 27);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    cursor: url("custom.png"), url("custom.cur"), default;
+}
+
+.container{
+    font-size: 208px;
+}
+
+.fixed{
+    background-color: rgb(248, 230, 253);
+    width:50px;
+    height:210px;
+    border:1px solid;
+    margin-top: 0;
+    position:fixed;
+    top:0;
+}
+.fixed2{
+    background-color: rgb(248, 230, 253);
+    width: 420px;
+    height:210px;
+    border:1px solid;
+    margin-top: 0;
+    position:fixed;
+    top:0;
+    left:1280px;
+}
