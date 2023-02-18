@@ -21,7 +21,7 @@ nav div {
     border: 2px solid rgba(62, 9, 23, 0.473);
 }
 
-.div1{
+#div1{
     padding: 30px;
     position: absolute;
     background-color: red;
@@ -30,17 +30,14 @@ nav div {
     font-size:15px;
 }
 
-.hidden{
+#div2{
     padding: 30px;
-    /* position: absolute; */
+    position: absolute;
     background-color: red;
+    top:120px;
+    left:24px;
     font-size:15px;
-    display:none;
 }
-
-nav div:hover .hidden{
-    display:block;
-    }
 
 #div3{
     padding: 30px;
@@ -105,3 +102,6 @@ img {
     right:555px;
 }
 
+.up-left:hover .div2{
+display:block;
+}
