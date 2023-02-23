@@ -1,0 +1,109 @@
+nav{
+    width: 200vw;
+    height: 200vh;
+    display: grid;
+    grid-template-areas:
+        "up-left up-right"
+        "bottom-left bottom-right";
+    background-color:rgba(218, 206, 227, 0.637);
+    z-index:1;
+    
+}
+
+nav div {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(62, 9, 23, 0.473);
+    z-index:2;
+}
+
+.div1{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:120px;
+    left:740px;
+    font-size:15px;
+}
+
+.hidden{
+    /* padding: 10px; */
+    /* position: absolute; */
+    background-color: red;
+    font-size:9px;
+    display:none;
+    z-index:1;
+}
+
+nav div:hover .hidden{
+    display:block;
+    }
+
+#div3{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:120px;
+    left:1330px;
+    font-size:15px;
+}
+
+#div4{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:440px;
+    left:120px;
+    font-size:15px;
+}
+
+#div5{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:440px;
+    left:1325px;
+    font-size:15px;
+}
+
+#div6{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:750px;
+    left:135px;
+    font-size:15px;
+}
+
+#div7{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:750px;
+    left:710px;
+    font-size:15px;
+}
+
+#div8{
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top:750px;
+    left:1410px;
+    font-size:15px;
+}
+
+/* img {
+    height: 1200px;
+    position:absolute;
+    height: 310px;
+    width:572px;
+    top:322px;
+    right:555px;
+} */
+
