@@ -6,11 +6,11 @@ body, html{
     margin:0;
     height:100%;
     width:100%;
+    background-color: rgb(255, 246, 166);
 }
 
 .flex{
     height:100vh;
-    width:100vw;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
@@ -24,30 +24,54 @@ body, html{
 
 .image1{
     position: fixed;
-    left: 200px;
-    top:550px;
+    left: 180px;
+    top:460px;
+    width:30px;
 }
 
 .image2{
     position:fixed;
-    left:100px;
+    left:90px;
     top:300px;
-    animation: move 10s infinite alternate;
+    animation: move 6s infinite alternate;
+    width:210px;
 }
 
 
 .image3{
     position:fixed;
     left:200px;
-    top:790px;
-    animation: pulse 30s infinite alternate;
+    top:720px;
+    animation: pulse 10s infinite alternate;
+    width:200px;
+}
+
+.image4{
+    position:fixed;
+    left:400px;
+    top:150px;
+    width:210px;
+    animation: rotate3 4s infinite alternate;
+}
+
+.image5{
+    position:fixed;
+    left:490px;
+    top:250px;
+    width:20px;
+}
+
+.landscape{
+    position:fixed;
+    top:380px;
+    width:100%;
 }
 
 
 
 @keyframes pulse{
     0%{
-        transform: rotate(0);
+        transform: rotate(0deg);
     }
     100%{
         transform: rotate(180deg);
@@ -60,9 +84,16 @@ body, html{
         transform: rotate(0);
     }
     100%{
-        transform:translateX(60vw);
+        transform:translateX(20vw);
         transform: rotate(360deg);
     }
 }
 
-
+@keyframes rotate3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
